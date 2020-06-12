@@ -1,1 +1,61 @@
-[ ]
+[ {
+  "uid" : "8024a3d7034617e6",
+  "name" : "test_ui_zlasik",
+  "time" : {
+    "start" : 1591628635274,
+    "stop" : 1591628647330,
+    "duration" : 12056
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "9aa95cff4c0d5105",
+  "name" : "test_ui_zlasik",
+  "time" : {
+    "start" : 1591625456895,
+    "stop" : 1591625469176,
+    "duration" : 12281
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "a754ebda3058757",
+  "name" : "test_ui_zlasik",
+  "time" : {
+    "start" : 1591869635509,
+    "stop" : 1591869639215,
+    "duration" : 3706
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4322555948d6a50a",
+  "name" : "test_ui_zlasik",
+  "time" : {
+    "start" : 1591625404162,
+    "stop" : 1591625407513,
+    "duration" : 3351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57cc2c055720dafc",
+  "name" : "test_ui_zlasik",
+  "time" : {
+    "start" : 1591714468146,
+    "stop" : 1591714480393,
+    "duration" : 12247
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "45bcf481fcf8533",
+  "name" : "test_ui_zlasik",
+  "time" : {
+    "start" : 1591626703797,
+    "stop" : 1591626713798,
+    "duration" : 10001
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

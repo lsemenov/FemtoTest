@@ -1,5 +1,111 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "example",
+    "children" : [ {
+      "name" : "test_ui_zlasik",
+      "uid" : "4322555948d6a50a",
+      "parentUid" : "e208ff1cb412bd4f5b63ec4e9eb8d51a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591625404162,
+        "stop" : 1591625407513,
+        "duration" : 3351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e208ff1cb412bd4f5b63ec4e9eb8d51a"
+  }, {
+    "name" : "Test_Ui_Zlasik",
+    "children" : [ {
+      "name" : "TestUiZlasik",
+      "children" : [ {
+        "name" : "test_ui_zlasik",
+        "uid" : "9aa95cff4c0d5105",
+        "parentUid" : "382044d88d1c9c7b80cc3c0bba75d4c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591625456895,
+          "stop" : 1591625469176,
+          "duration" : 12281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "382044d88d1c9c7b80cc3c0bba75d4c4"
+    } ],
+    "uid" : "c9e3bf737f5f7e946e3caad33e1938b2"
+  }, {
+    "name" : "test_ui_lasik",
+    "children" : [ {
+      "name" : "test_ui_zlasik",
+      "uid" : "45bcf481fcf8533",
+      "parentUid" : "f88711eb3edac4be4e0f886472ce718b",
+      "status" : "broken",
+      "time" : {
+        "start" : 1591626703797,
+        "stop" : 1591626713798,
+        "duration" : 10001
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f88711eb3edac4be4e0f886472ce718b"
+  }, {
+    "name" : "test_lasik",
+    "children" : [ {
+      "name" : "test_ui_zlasik",
+      "uid" : "8024a3d7034617e6",
+      "parentUid" : "1fa6ebfb2b06dd7a6d4aa661c36cec88",
+      "status" : "broken",
+      "time" : {
+        "start" : 1591628635274,
+        "stop" : 1591628647330,
+        "duration" : 12056
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1fa6ebfb2b06dd7a6d4aa661c36cec88"
+  }, {
+    "name" : "test2",
+    "children" : [ {
+      "name" : "test_ui_zlasik",
+      "uid" : "57cc2c055720dafc",
+      "parentUid" : "239d47d4e08536edb33dbbc733710c9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1591714468146,
+        "stop" : 1591714480393,
+        "duration" : 12247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "239d47d4e08536edb33dbbc733710c9c"
+  }, {
+    "name" : "lasik_test",
+    "children" : [ {
+      "name" : "test_ui_zlasik",
+      "uid" : "a754ebda3058757",
+      "parentUid" : "6d9be1f8207983a2e0a5d2c9e597db96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591869635509,
+        "stop" : 1591869639215,
+        "duration" : 3706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6d9be1f8207983a2e0a5d2c9e597db96"
+  } ]
 }

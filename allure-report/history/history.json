@@ -1,1 +1,126 @@
-{ }
+{
+  "8e70adaaff853750c96378406ee24517" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9aa95cff4c0d5105",
+      "reportUrl" : "http://localhost:8080/job/femto_test/7/allure/#testresult/9aa95cff4c0d5105",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element cannot be found",
+      "time" : {
+        "start" : 1591625456895,
+        "stop" : 1591625469176,
+        "duration" : 12281
+      }
+    } ]
+  },
+  "49f4624104b770b4b4dd9a970f827b14" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4322555948d6a50a",
+      "reportUrl" : "http://localhost:8080/job/femto_test/7/allure/#testresult/4322555948d6a50a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591625404162,
+        "stop" : 1591625407513,
+        "duration" : 3351
+      }
+    } ]
+  },
+  "89706d0b275329ad1e4d35bd8fcd53df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8024a3d7034617e6",
+      "reportUrl" : "http://localhost:8080/job/femto_test/7/allure/#testresult/8024a3d7034617e6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element cannot be found",
+      "time" : {
+        "start" : 1591628635274,
+        "stop" : 1591628647330,
+        "duration" : 12056
+      }
+    } ]
+  },
+  "bf577e346fcd5d95384ec7792a4976aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45bcf481fcf8533",
+      "reportUrl" : "http://localhost:8080/job/femto_test/7/allure/#testresult/45bcf481fcf8533",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element cannot be found",
+      "time" : {
+        "start" : 1591626703797,
+        "stop" : 1591626713798,
+        "duration" : 10001
+      }
+    } ]
+  },
+  "c2142d9461ffd1a02dd748d16fafd503" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a754ebda3058757",
+      "reportUrl" : "http://localhost:8080/job/femto_test/7/allure/#testresult/a754ebda3058757",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591869635509,
+        "stop" : 1591869639215,
+        "duration" : 3706
+      }
+    } ]
+  },
+  "d4d4c8459bd3bd6b69ba160149158066" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57cc2c055720dafc",
+      "reportUrl" : "http://localhost:8080/job/femto_test/7/allure/#testresult/57cc2c055720dafc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element cannot be found",
+      "time" : {
+        "start" : 1591714468146,
+        "stop" : 1591714480393,
+        "duration" : 12247
+      }
+    } ]
+  }
+}

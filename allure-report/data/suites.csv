@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Jun 08 18:03:55 MSK 2020","Mon Jun 08 18:04:07 MSK 2020","12056","","test_lasik","","","","test_ui_zlasik",""
+"broken","Mon Jun 08 17:10:56 MSK 2020","Mon Jun 08 17:11:09 MSK 2020","12281","","Test_Ui_Zlasik","TestUiZlasik","","","test_ui_zlasik",""
+"passed","Thu Jun 11 13:00:35 MSK 2020","Thu Jun 11 13:00:39 MSK 2020","3706","","lasik_test","","","","test_ui_zlasik",""
+"passed","Mon Jun 08 17:10:04 MSK 2020","Mon Jun 08 17:10:07 MSK 2020","3351","","example","","","","test_ui_zlasik",""
+"broken","Tue Jun 09 17:54:28 MSK 2020","Tue Jun 09 17:54:40 MSK 2020","12247","","test2","","","","test_ui_zlasik",""
+"broken","Mon Jun 08 17:31:43 MSK 2020","Mon Jun 08 17:31:53 MSK 2020","10001","","test_ui_lasik","","","","test_ui_zlasik",""

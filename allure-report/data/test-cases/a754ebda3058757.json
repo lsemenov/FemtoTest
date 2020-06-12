@@ -1,0 +1,214 @@
+{
+  "uid" : "a754ebda3058757",
+  "name" : "test_ui_zlasik",
+  "fullName" : "lasik_test#test_ui_zlasik",
+  "historyId" : "c2142d9461ffd1a02dd748d16fafd503",
+  "time" : {
+    "start" : 1591869635509,
+    "stop" : 1591869639215,
+    "duration" : 3706
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_setup",
+    "time" : {
+      "start" : 1591869633299,
+      "stop" : 1591869635508,
+      "duration" : 2209
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "test_setup::0",
+    "time" : {
+      "start" : 1591869639216,
+      "stop" : 1591869639217,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Ввод допустимого операционного параметра \"Диаметр\""
+  }, {
+    "name" : "feature",
+    "value" : "Ввод операцционных парамтеров ZLasik"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "lasik_test"
+  }, {
+    "name" : "host",
+    "value" : "HOME-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "lasik_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "e3d9bb130c419bcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591869152667,
+        "stop" : 1591869156371,
+        "duration" : 3704
+      }
+    }, {
+      "uid" : "c41f3ddee9e28299",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591868290280,
+        "stop" : 1591868293975,
+        "duration" : 3695
+      }
+    }, {
+      "uid" : "1aabd82b079de20e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591868246493,
+        "stop" : 1591868249996,
+        "duration" : 3503
+      }
+    }, {
+      "uid" : "ae617b3cc3e3374d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591868193699,
+        "stop" : 1591868197203,
+        "duration" : 3504
+      }
+    }, {
+      "uid" : "4e460b28d36a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591867304520,
+        "stop" : 1591867308124,
+        "duration" : 3604
+      }
+    }, {
+      "uid" : "dedffe317f7105f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591866147290,
+        "stop" : 1591866151000,
+        "duration" : 3710
+      }
+    }, {
+      "uid" : "8393bce96a6247f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591864958442,
+        "stop" : 1591864962247,
+        "duration" : 3805
+      }
+    }, {
+      "uid" : "82c69827d30db0ec",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element cannot be found",
+      "time" : {
+        "start" : 1591713962015,
+        "stop" : 1591713972080,
+        "duration" : 10065
+      }
+    }, {
+      "uid" : "1555c43e5a9716fd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element cannot be found",
+      "time" : {
+        "start" : 1591713824856,
+        "stop" : 1591713834940,
+        "duration" : 10084
+      }
+    }, {
+      "uid" : "d395f7750a007072",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591713669730,
+        "stop" : 1591713673708,
+        "duration" : 3978
+      }
+    }, {
+      "uid" : "c1e3583e1cf34118",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Element cannot be found",
+      "time" : {
+        "start" : 1591691670421,
+        "stop" : 1591691680500,
+        "duration" : 10079
+      }
+    }, {
+      "uid" : "ad8f7b7a7da41472",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591690290363,
+        "stop" : 1591690293866,
+        "duration" : 3503
+      }
+    }, {
+      "uid" : "91ff1efc47e8e401",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'driver' is not defined",
+      "time" : {
+        "start" : 1591690263639,
+        "stop" : 1591690263639,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4114682f03631cbc",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'driver' is not defined",
+      "time" : {
+        "start" : 1591690210286,
+        "stop" : 1591690210286,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aab273c47c0de9c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591690171158,
+        "stop" : 1591690176961,
+        "duration" : 5803
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a754ebda3058757.json",
+  "parameterValues" : [ ]
+}

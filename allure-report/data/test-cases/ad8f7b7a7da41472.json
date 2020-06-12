@@ -1,0 +1,87 @@
+{
+  "uid" : "ad8f7b7a7da41472",
+  "name" : "test_ui_zlasik",
+  "fullName" : "lasik_test#test_ui_zlasik",
+  "historyId" : "c2142d9461ffd1a02dd748d16fafd503",
+  "time" : {
+    "start" : 1591690290363,
+    "stop" : 1591690293866,
+    "duration" : 3503
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_setup",
+    "time" : {
+      "start" : 1591690288165,
+      "stop" : 1591690290362,
+      "duration" : 2197
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "test_setup::0",
+    "time" : {
+      "start" : 1591690293866,
+      "stop" : 1591690293867,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Ввод операцционных парамтеров ZLasik"
+  }, {
+    "name" : "story",
+    "value" : "Ввод допустимого операционного параметра \"Диаметр\""
+  }, {
+    "name" : "suite",
+    "value" : "lasik_test"
+  }, {
+    "name" : "host",
+    "value" : "HOME-PC"
+  }, {
+    "name" : "thread",
+    "value" : "5144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "lasik_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad8f7b7a7da41472.json",
+  "parameterValues" : [ ]
+}

@@ -3,17 +3,14 @@ import allure
 import pytest
 import os
 
-
-
 @pytest.fixture()
 def test_setup():
     global driver
     os.startfile(r'C:\Users\_username_\PycharmProjects\testinf_Femo\driver\Winium.Desktop.Driver.exe')
     driver = webdriver.Remote(command_executor='http://localhost:9999',
-                                       desired_capabilities={'app': r"C:\Users\_username_\Desktop\фемтовизум\сервис мануал\FemtoOld\2.8.5.24\FemtoVisum.exe"})
+                                       desired_capabilities={'app': r"C:\Users\_username_\PycharmProjects\testinf_Femo\femto_visum\FemtoVisum.exe"})
     yield
     driver.quit()
-
 
 @allure.feature('Ввод операцционных парамтеров ZLasik')
 @allure.story('Ввод допустимого операционного параметра "Диаметр"')
@@ -39,4 +36,3 @@ def test_ui_zlasik(test_setup):
     text = str(driver.find_element_by_id('1126').text)
     assert text == diameter
     driver.quit()
-
