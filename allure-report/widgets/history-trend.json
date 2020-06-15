@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:8080/job/femto_test/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 5,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 6
+  }
+}, {
   "buildOrder" : 7,
   "reportUrl" : "http://localhost:8080/job/femto_test/7/allure",
   "reportName" : "AllureReport",

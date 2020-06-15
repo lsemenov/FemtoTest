@@ -6,9 +6,9 @@ import os
 @pytest.fixture()
 def test_setup():
     global driver
-    os.startfile(r'C:\Users\_username_\PycharmProjects\testinf_Femo\driver\Winium.Desktop.Driver.exe')
+    os.startfile(r'driver\Winium.Desktop.Driver.exe')
     driver = webdriver.Remote(command_executor='http://localhost:9999',
-                                       desired_capabilities={'app': r"C:\Users\_username_\PycharmProjects\testinf_Femo\femto_visum\FemtoVisum.exe"})
+                                       desired_capabilities={'app': r"femto_visum\FemtoVisum.exe"})
     yield
     driver.quit()
 

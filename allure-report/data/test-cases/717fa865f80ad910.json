@@ -1,0 +1,108 @@
+{
+  "uid" : "717fa865f80ad910",
+  "name" : "test_ui_zlasik",
+  "fullName" : "example#test_ui_zlasik",
+  "historyId" : "49f4624104b770b4b4dd9a970f827b14",
+  "time" : {
+    "start" : 1591625404162,
+    "stop" : 1591625407513,
+    "duration" : 3351
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_setup",
+    "time" : {
+      "start" : 1591625401956,
+      "stop" : 1591625404161,
+      "duration" : 2205
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "test_setup::0",
+    "time" : {
+      "start" : 1591625407513,
+      "stop" : 1591625407772,
+      "duration" : 259
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "example"
+  }, {
+    "name" : "host",
+    "value" : "HOME-PC"
+  }, {
+    "name" : "thread",
+    "value" : "3284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "922b306155cecab9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591623126342,
+        "stop" : 1591623129671,
+        "duration" : 3329
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "4322555948d6a50a",
+        "reportUrl" : "http://localhost:8080/job/femto_test/7/allure/#testresult/4322555948d6a50a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591625404162,
+          "stop" : 1591625407513,
+          "duration" : 3351
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "717fa865f80ad910.json",
+  "parameterValues" : [ ]
+}

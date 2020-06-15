@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8080/",
-  "buildOrder" : 7,
-  "buildName" : "femto_test #7",
-  "buildUrl" : "http://localhost:8080/job/femto_test/7/",
+  "buildOrder" : 9,
+  "buildName" : "femto_test #9",
+  "buildUrl" : "http://localhost:8080/job/femto_test/9/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/job/femto_test/7/allure"
+  "reportUrl" : "http://localhost:8080/job/femto_test/9/allure"
 } ]
