@@ -1,8 +1,0 @@
-[ {
-  "buildOrder" : 7,
-  "reportUrl" : "http://localhost:8080/job/femto_test/7/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "duration" : 244235053
-  }
-} ]

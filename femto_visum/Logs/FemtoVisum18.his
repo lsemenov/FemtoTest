@@ -33137,3 +33137,82 @@
 20:5:30.365	!!!FemtoController port 5 not opened, code error:-1
 20:5:30.370	--- Exit Program ---
 20:5:30.370	 
+13:56:32.177	--- Starting Program. Date: 15.6.2020. Soft vers: 2.5.24 ---
+13:56:32.178	!!!FemtoController port 5 not opened, code error:-1
+13:56:32.187	camera start failed
+13:56:32.227	Ошибка связи с сервером контроллера. #3 Системе не удается найти указанный путь.
+
+13:56:32.227	Ошибка связи с сервером видеокамеры. #3 Системе не удается найти указанный путь.
+
+13:56:32.227	Ошибка связи с сервером видеокамеры. #6 Неверный дескриптор.
+
+13:56:32.256	Main menu wnd entered
+13:56:32.288	Repeat search of femtocontroller
+13:56:32.288	!!!FemtoController port 5 not opened, code error:-1
+13:56:32.395	Repeat search of femtocontroller
+13:56:32.395	!!!FemtoController port 5 not opened, code error:-1
+13:56:32.503	Repeat search of femtocontroller
+13:56:32.503	!!!FemtoController port 5 not opened, code error:-1
+13:56:32.610	Repeat search of femtocontroller
+13:56:32.610	!!!FemtoController port 5 not opened, code error:-1
+13:56:32.718	Repeat search of femtocontroller
+13:56:32.718	!!!FemtoController port 5 not opened, code error:-1
+13:56:32.817	Patient info wnd entered
+13:56:32.825	Repeat search of femtocontroller
+13:56:32.825	!!!FemtoController port 5 not opened, code error:-1
+13:56:32.931	Repeat search of femtocontroller
+13:56:32.931	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.39	Repeat search of femtocontroller
+13:56:33.39	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.146	Repeat search of femtocontroller
+13:56:33.146	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.254	Repeat search of femtocontroller
+13:56:33.254	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.315	Flap Z info wnd entered
+13:56:33.361	Repeat search of femtocontroller
+13:56:33.361	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.469	Repeat search of femtocontroller
+13:56:33.469	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.575	Repeat search of femtocontroller
+13:56:33.575	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.682	Repeat search of femtocontroller
+13:56:33.682	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.790	Repeat search of femtocontroller
+13:56:33.790	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.897	Repeat search of femtocontroller
+13:56:33.897	!!!FemtoController port 5 not opened, code error:-1
+13:56:33.950	Number keyboard wnd entered
+13:56:34.4	Repeat search of femtocontroller
+13:56:34.4	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.111	Repeat search of femtocontroller
+13:56:34.111	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.218	Repeat search of femtocontroller
+13:56:34.218	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.324	Repeat search of femtocontroller
+13:56:34.324	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.430	Repeat search of femtocontroller
+13:56:34.430	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.537	Repeat search of femtocontroller
+13:56:34.537	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.643	Repeat search of femtocontroller
+13:56:34.643	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.750	Repeat search of femtocontroller
+13:56:34.750	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.856	Repeat search of femtocontroller
+13:56:34.856	!!!FemtoController port 5 not opened, code error:-1
+13:56:34.963	Repeat search of femtocontroller
+13:56:34.963	!!!FemtoController port 5 not opened, code error:-1
+13:56:35.70	Repeat search of femtocontroller
+13:56:35.70	!!!FemtoController port 5 not opened, code error:-1
+13:56:35.177	Repeat search of femtocontroller
+13:56:35.177	!!!FemtoController port 5 not opened, code error:-1
+13:56:35.283	Repeat search of femtocontroller
+13:56:35.283	!!!FemtoController port 5 not opened, code error:-1
+13:56:35.389	Repeat search of femtocontroller
+13:56:35.389	!!!FemtoController port 5 not opened, code error:-1
+13:56:35.496	Repeat search of femtocontroller
+13:56:35.496	!!!FemtoController port 5 not opened, code error:-1
+13:56:35.602	Repeat search of femtocontroller
+13:56:35.602	!!!FemtoController port 5 not opened, code error:-1
+13:56:35.606	--- Exit Program ---
+13:56:35.606	 
