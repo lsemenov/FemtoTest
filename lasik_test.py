@@ -3,7 +3,6 @@ import allure
 import pytest
 import os
 
-<<<<<<< HEAD
 diameter1 = '9.1'
 diameter2 = '9.5'
 diameter3 = '9.9'
@@ -17,14 +16,12 @@ angle1 = '30'
 angle2 = '90'
 angle3 = '120'
 
-=======
->>>>>>> a836350f0bde946019da7e899ff0f61dd6c2c350
+
 @pytest.fixture()
 def test_setup():
     global driver
     os.startfile(r'driver\Winium.Desktop.Driver.exe')
     driver = webdriver.Remote(command_executor='http://localhost:9999',
-<<<<<<< HEAD
                               desired_capabilities={'app': r"femto_visum\FemtoVisum.exe"})
     yield
     # f: Указывает, что процесс принудительно завершен.
@@ -32,16 +29,10 @@ def test_setup():
     driver.quit()
     os.system("taskkill /f /im Winium.Desktop.Driver.exe")
 
-=======
-                                       desired_capabilities={'app': r"femto_visum\FemtoVisum.exe"})
-    yield
-    driver.quit()
->>>>>>> a836350f0bde946019da7e899ff0f61dd6c2c350
 
 @allure.feature('Ввод операцционных парамтеров ZLasik')
 @allure.story('Ввод допустимого операционного параметра "Диаметр"')
 @allure.severity('critical')
-<<<<<<< HEAD
 def test_diameter(test_setup):
     # Входим в меню выбора операции
     window_operation = driver.find_element_by_class_name('#32770')  # Находим окно меню
@@ -145,11 +136,11 @@ def test_angle(test_setup):
     driver.find_element_by_id('1015').click()
     text3 = str(driver.find_element_by_id('1282').text)
     assert text3 == angle3
-=======
-def test_ui_zlasik(test_setup):
 
+
+def test_ui_zlasik(test_setup):
     # Входим в меню выбора операции
-    window_operation = driver.find_element_by_class_name('#32770')     # Находим окно меню
+    window_operation = driver.find_element_by_class_name('#32770')  # Находим окно меню
     button_operation = window_operation.find_element_by_id('1021')
     button_operation.click()  # Находим кнопку операция
 
@@ -167,4 +158,3 @@ def test_ui_zlasik(test_setup):
     text = str(driver.find_element_by_id('1126').text)
     assert text == diameter
     driver.quit()
->>>>>>> a836350f0bde946019da7e899ff0f61dd6c2c350
