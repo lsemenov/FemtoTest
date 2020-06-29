@@ -33216,6 +33216,7 @@
 13:56:35.602	!!!FemtoController port 5 not opened, code error:-1
 13:56:35.606	--- Exit Program ---
 13:56:35.606	 
+<<<<<<< HEAD
 15:54:20.303	--- Starting Program. Date: 23.6.2020. Soft vers: 2.5.24 ---
 15:54:20.305	!!!FemtoController port 5 not opened, code error:-1
 15:54:20.316	camera start failed
@@ -47044,3 +47045,5 @@
 15:23:32.409	!!!FemtoController port 5 not opened, code error:-1
 15:23:32.422	--- Exit Program ---
 15:23:32.422	 
+=======
+>>>>>>> a836350f0bde946019da7e899ff0f61dd6c2c350
