@@ -16,18 +16,20 @@ angle1 = '30'
 angle2 = '90'
 angle3 = '120'
 
+os.startfile(r'driver\Winium.Desktop.Driver.exe')
+
 
 @pytest.fixture()
 def test_setup():
     global driver
-    os.startfile(r'driver\Winium.Desktop.Driver.exe')
+    # os.startfile(r'driver\Winium.Desktop.Driver.exe')
     driver = webdriver.Remote(command_executor='http://localhost:9999',
                               desired_capabilities={'app': r"femto_visum\FemtoVisum.exe"})
     yield
     # f: Указывает, что процесс принудительно завершен.
     # im (ImageName): Указывает имя изображения процесса прекращается.
     driver.quit()
-    os.system("taskkill /f /im Winium.Desktop.Driver.exe")
+    # os.system("taskkill /f /im Winium.Desktop.Driver.exe")
 
 
 @allure.feature('Ввод операцционных парамтеров ZLasik')
