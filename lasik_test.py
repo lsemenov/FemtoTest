@@ -28,6 +28,7 @@ def test_setup():
     yield
     # f: Указывает, что процесс принудительно завершен.
     # im (ImageName): Указывает имя изображения процесса прекращается.
+    driver.close()
     driver.quit()
     # os.system("taskkill /f /im Winium.Desktop.Driver.exe")
 
@@ -78,6 +79,8 @@ def test_diameter(test_setup):
     assert text4 != diameter4
 
 
+@allure.story('Ввод допустимого операционного параметра "Глубина"')
+@allure.severity('critical')
 def test_depth(test_setup):
     # Входим в меню выбора операции
     window_operation = driver.find_element_by_class_name('#32770')  # Находим окно меню
@@ -108,7 +111,8 @@ def test_depth(test_setup):
     text3 = str(driver.find_element_by_id('1312').text)
     assert text3 == depth3
 
-
+@allure.story('Ввод допустимого операционного параметра "Угол реза"')
+@allure.severity('critical')
 def test_angle(test_setup):
     # Входим в меню выбора операции
     window_operation = driver.find_element_by_class_name('#32770')  # Находим окно меню
@@ -139,7 +143,8 @@ def test_angle(test_setup):
     text3 = str(driver.find_element_by_id('1282').text)
     assert text3 == angle3
 
-
+@allure.story('Выбор "Расположение ножки"')
+@allure.severity('critical')
 def test_ui_zlasik(test_setup):
     # Входим в меню выбора операции
     window_operation = driver.find_element_by_class_name('#32770')  # Находим окно меню
