@@ -37,7 +37,7 @@ def test_setup():
 @allure.feature('Ввод операцционных парамтеров ZLasik')
 @allure.story('Ввод допустимого операционного параметра "Диаметр"')
 @allure.severity('critical')
-def test_os(test_setup):
+def test_os_eye(test_setup, mistaken_blocks=0):
     # Входим в меню выбора операции
     global region_staging
     window_operation = driver.find_element_by_class_name('#32770')  # Находим окно меню
@@ -50,21 +50,20 @@ def test_os(test_setup):
 
     # Кликаем правый OS глаз
     driver.find_element_by_id("1341").click()
-    # кликаем  OD глаз
-    # driver.find_element_by_id("1008").click()
 
     # делаем скриншот
-    element = driver.find_element_by_id("1001")
-
-    # driver.save_screenshot("screenshots\prodaction\screen_production.png")
-    driver.save_screenshot("screenshots\staging\staging.png")
+    driver.save_screenshot("screenshots\staging\staging_os.png")
+    area = (1250, 190, 1500, 435)
+    img_stag = Image.open("screenshots\staging\staging_os.png")
+    img_stag_crop = img_stag.crop(area)
+    img_stag_crop.save("screenshots\staging\staging_os_crop.png")
 
     # сравнение c эталоном
+    screenshot_staging = Image.open("screenshots\staging\staging_os_crop.png")
+    screenshot_production = Image.open("screenshots\prodaction\screen_production_os_crop.png")
 
-    screenshot_staging = Image.open("screenshots\staging\staging.png")
-    screenshot_production = Image.open("screenshots\prodaction\screen_production.png")
-    columns = 60
-    rows = 80
+    columns = 30
+    rows = 40
     screen_width, screen_height = screenshot_staging.size
 
     block_width = ((screen_width - 1) // columns) + 1  # this is just a division ceiling
@@ -78,9 +77,67 @@ def test_os(test_setup):
             if region_staging is not None and region_production is not None and region_production != region_staging:
                 draw = ImageDraw.Draw(screenshot_staging)
                 draw.rectangle((x, y, x + block_width, y + block_height), outline="red")
+                mistaken_blocks += 1
+    screenshot_staging.save("screenshots\diff\Result_os.png")
+    assert mistaken_blocks < 10
+    driver.close()
+    driver.quit()
 
-    screenshot_staging.save("screenshots\diff\Result.png")
-    # diff = int(region_staging) / region_production
-    print(region_staging)
-    print(region_production)
-    # assert diff < 1000
+
+@allure.story('Отображение OD глаза"')
+@allure.severity('critical')
+def test_od_eye(test_setup, mistaken_blocks=0):
+    # Входим в меню выбора операции
+    global region_staging
+    window_operation = driver.find_element_by_class_name('#32770')  # Находим окно меню
+    button_operation = window_operation.find_element_by_id('1021')
+    button_operation.click()  # Находим кнопку операция
+
+    # выбор операции z-lasik
+    window_operation_menu = driver.find_element_by_class_name('#32770')
+    window_operation_menu.find_element_by_id('1015').click()
+
+    # кликаем  OD глаз
+    # driver.find_element_by_id('1126').send_keys('10')
+    # driver.find_element_by_id('1015').click()
+    driver.find_element_by_id("1008").click()
+
+    # делаем скриншот
+    driver.save_screenshot("screenshots\staging\staging_od.png")
+    area = (1250, 190, 1500, 435)
+    img_stag = Image.open("screenshots\staging\staging_od.png")
+    img_stag_crop = img_stag.crop(area)
+    img_stag_crop.save("screenshots\staging\staging_od_crop.png")
+
+    # сравнение c эталоном
+    screenshot_staging = Image.open("screenshots\staging\staging_od_crop.png")
+    screenshot_production = Image.open("screenshots\prodaction\screen_production_od_crop.png")
+
+    columns = 30
+    rows = 40
+    screen_width, screen_height = screenshot_staging.size
+
+    block_width = ((screen_width - 1) // columns) + 1  # this is just a division ceiling
+    block_height = ((screen_height - 1) // rows) + 1
+
+    for y in range(0, screen_height, block_height + 1):
+        for x in range(0, screen_width, block_width + 1):
+            region_staging = process_region(screenshot_staging, x, y, block_width, block_height)
+            region_production = process_region(screenshot_production, x, y, block_width, block_height)
+
+            if region_staging is not None and region_production is not None and region_production != region_staging:
+                draw = ImageDraw.Draw(screenshot_staging)
+                draw.rectangle((x, y, x + block_width, y + block_height), outline="red")
+                mistaken_blocks += 1
+    screenshot_staging.save("screenshots\diff\Result_od.png")
+    """ 
+    34 ишибочных блока при несовпадении стороны
+    89 и больше если диаметр не совпадает на 0.5 мм
+    
+    """
+    assert mistaken_blocks < 10
+    driver.close()
+    driver.quit()
+
+
+
